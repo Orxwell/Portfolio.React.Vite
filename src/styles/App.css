@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto auto 60px;
+
+  background-color: #a76f06;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+  border-bottom: 4px dashed black;
+
+  background-color: #fa1;
+}
+
+header section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header section img {
+  margin: 5px;
+
+  width: 80px;
+  height: 80px;
+
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+header section span {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  font-weight: 600;
+
+  color: #fa1;
+
+  border-radius: 5px;
+
+  background-color: black;
+}
+
+nav {
+  background-color: #a76f06;
+
+  border-top: 4px dashed black;
+  border-bottom: 4px dashed black;
+}
+
+nav ul {
+  width: 90%;
+
+  display: flex;
+
+  place-self: center;
+  justify-content: center;
+
+  margin: 15px 0;
+  padding: 5px 0;
+
+  background-color: #fa1;
+
+  border-radius: 20px;
+
+  list-style: none;
+
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+
+  text-align: center;
+
+  padding: 2px 12px 2px 12px;
+
+  border-radius: 10px;
+  
+  background-color: black;
+
+  color: #fa1;
+
+  font-weight: 600;
+
+  transition: all .2s ease-in-out;
+}
+
+nav ul li a:hover {
+  filter: invert(1);
+}
+
+main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  width: 100vw;
+  height: min-content;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  border-top: 4px dashed black;
+  border-bottom: 4px dashed black;
+
+  background-color: #a76f06;
+
+  gap: 20px;
+}
+
+main article {
+  width: 90vw;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  border-radius: 20px;
+
+  background-color: #fa1;
+}
+
+main article:last-of-type {
+  margin-bottom: 60px;
+}
+
+main article section {
+  width: 95%;
+
+  display: flex;
+  flex-direction: column;
+
+  place-content: center;
+
+  align-items: center;
+}
+
+main article section span {
+  text-align: center;
+}
+
+main article section:last-of-type {
+  margin-bottom: 15px;
+}
+
+main section h2 {
+  margin: 10px 0;
+
+  text-align: center;
+
+  font-size: 1rem;
+}
+
+main section span {
+  font-size: 15px;
+  font-style: italic;
+}
+
+main article section img {
+  width: 80%;
+  max-width: 700px;
+  max-height: 700px;
+
+  border-style: groove;
+  border-color: black;
+  border-radius: 20px;
+}
+
+main article section p {
+  margin: 10px 0;
+
+  font-weight: 600;
+
+  text-align: center;
+}
+
+main.contact-me {
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: none;
+
+  gap: 15px;
+}
+
+main article section form {
+  width: 95%;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+
+  user-select: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  height: 60px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-top: 4px dashed black;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fa1;
+}
+
+footer section span {
+  font-weight: 700;
+}
+
+hr {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0;
+
+  align-self: center;
+
+  width: 95%;
+  background-color: transparent;
+
+  border: none;
+  border-top: 8px dotted #a76f06;
+}
+
+input {
+  height: 22px;
+  
+  text-align: center;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  padding: 4px 0;
+
+  border-radius: 20px;
+}
+
+textarea {
+  padding: 10px 10px;
+
+  height: 150px;
+
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+
+  border-radius: 20px;
+}
+
+button {
+  padding: 4px 15px;
+
+  font-size: 1rem;
+  font-weight: 600;
+  
+  background-color: black;
+  color: #fa1;
+
+  border-radius: 20px;
+  
+  transition: all .2s ease-in-out;
+}
+
+button:hover {
+  filter: invert(1);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
