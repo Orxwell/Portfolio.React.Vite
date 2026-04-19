@@ -62,45 +62,6 @@ function ContactMe (props) {
         </form>
       </section>
     </article>
-
-    <article>
-      <section>
-        <h2>{props.title}</h2>
-
-        <span>{props.description}</span>
-      </section>
-
-      <hr />
-
-      <section>
-        <form onSubmit={sendEmail}>
-          <input
-            onChange={handleChange}
-            name="name"
-            type="text"
-            placeholder="Nombre"
-            required
-          />
-
-          <input
-            onChange={handleChange}
-            name="email"
-            type="email"
-            placeholder="E-mail"
-            required
-          />
-
-          <textarea
-            onChange={handleChange}
-            name="comments"
-            placeholder="Describe tu propuesta..."
-            required
-          ></textarea>
-
-          <button type="Submit">Enviar</button>
-        </form>
-      </section>
-    </article>
   </main>
 }
 
