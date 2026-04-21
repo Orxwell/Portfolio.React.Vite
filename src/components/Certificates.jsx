@@ -5,31 +5,31 @@ function Certificates () {
     {
       id         : 1,
       title      : "Introduction to Front-End Development",
-      description: "Una certificación donde apruebo mis conocimientos básicos sobre la especialización del desarrollo front-end.",
+      description: "A certification validating my foundational knowledge in front-end development.",
       url        : "/certifications/certificate-x.png",
     },
     {
       id         : 2,
       title      : "Programming with JavaScript",
-      description: "Una certificación donde apruebo mis habilidades a la hora de construir código limpio, legible, escalable, mantenible acerca de JavaScript. AKA: VanillaJS.",
+      description: "A certification validating my ability to write clean, readable, scalable, and maintainable JavaScript code. AKA: VanillaJS.",
       url        : "/certifications/certificate-x.png",
     },
     {
       id         : 3,
       title      : "Version Control",
-      description: "Una certificación donde apruebo mis capacidades para tener un control de versiones de mis propios proyectos, con Git.",
+      description: "A certification validating my ability to manage version control for my own projects using Git.",
       url        : "/certifications/certificate-x.png",
     },
     {
       id         : 4,
-      title      : "HTML & CSS in depth",
-      description: "Una certificación de mis conocimientos a la hora de escribir HTML y CSS de la manera más estándar posible.",
+      title      : "HTML & CSS in Depth",
+      description: "A certification validating my knowledge of writing HTML and CSS following the most standard and best-practice approaches.",
       url        : "/certifications/certificate-x.png",
     },
     {
       id         : 5,
       title      : "React Basics",
-      description: "Una certificación donde apruebo mis conocimientos básicos sobre React.",
+      description: "A certification validating my foundational knowledge of React.",
       url        : "/certifications/certificate-x.png",
     },
   ]

@@ -10,9 +10,9 @@ function ContactMe (props) {
   function sendEmail (e) {
     e.preventDefault();
 
-    console.log("Enviando datos a futuro backend:", formData);
+    console.log("Sending data to a future back-end:", formData);
     
-    alert('¡Gracias! Tu mensaje ha sido enviado correctamente (Simulado).');
+    alert('Thanks! Your message was sent successfully (simulated).');
     
     setFormData({ name: '', email: '', comments: '' });
 
@@ -39,7 +39,7 @@ function ContactMe (props) {
             onChange={handleChange}
             name="name"
             type="text"
-            placeholder="Nombre"
+            placeholder="Name"
             required
           />
 
@@ -54,11 +54,11 @@ function ContactMe (props) {
           <textarea
             onChange={handleChange}
             name="comments"
-            placeholder="Describe tu propuesta..."
+            placeholder="Describe your proposal..."
             required
           ></textarea>
 
-          <button type="Submit">Enviar</button>
+          <button type="Submit">Send</button>
         </form>
       </section>
     </article>

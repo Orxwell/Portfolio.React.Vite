@@ -57,38 +57,60 @@ header section span {
 }
 
 nav {
-  background-color: #a76f06;
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
 
   border-top: 4px dashed black;
   border-bottom: 4px dashed black;
 }
 
-nav ul {
+nav section {
+  margin: 10px 0;
+  
   width: 90%;
+  height: 40px;
 
   display: flex;
-
-  place-self: center;
+  
   justify-content: center;
-
-  margin: 15px 0;
-  padding: 5px 0;
-
+  
   background-color: #fa1;
 
   border-radius: 20px;
-
-  list-style: none;
-
-  gap: 30px;
 }
 
-nav ul li a {
+nav section ul {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  place-items: center;
+
+  list-style: none;
+}
+
+nav section ul li:first-of-type {
+  margin-left: 10%;
+}
+
+nav section ul li:last-of-type {
+  margin-right: 10%;
+}
+
+nav section ul li a {
   text-decoration: none;
 
   text-align: center;
 
-  padding: 2px 12px 2px 12px;
+  padding: 3px 12px 3px 12px;
 
   border-radius: 10px;
   
@@ -101,7 +123,37 @@ nav ul li a {
   transition: all .2s ease-in-out;
 }
 
-nav ul li a:hover {
+nav section ul li a:hover {
+  filter: invert(1);
+}
+
+nav section.social-links {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  place-items: center;
+}
+
+nav section.social-links a {
+  width: 36px;
+  height: 32px;
+
+  display: flex;
+  place-content: center;
+
+  transition: all .2s ease-in-out;
+}
+
+nav section.social-links a:first-of-type {
+  margin-left: 10%;
+}
+
+nav section.social-links a:last-of-type {
+  margin-right: 10%;
+}
+
+nav section.social-links a:hover {
   filter: invert(1);
 }
 
